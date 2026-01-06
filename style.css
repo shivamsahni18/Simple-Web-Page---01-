@@ -3,3 +3,68 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+    /* First Section  */
+.FirstPageContainer{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgb(108, 164, 212); */
+}
+
+    /* Navigation Box  */
+.navBox{
+    width: 100vw;
+    height: 50px;
+    background-color: rgb(34, 34, 34);
+    display: flex;
+}
+
+    /* Logo Box  */
+.logoBox{
+    width: 18%;
+    height: 100%;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoBox h2{
+    font-family: 'poppins';
+    font-weight: 700;
+    color: aliceblue;
+
+}
+.logoBox h2:hover{
+    color: rgb(223, 195, 255);
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+    /* Menu Box  */
+.menuBox{
+    width: 82%;
+    height: 100%;
+    /* background-color: aquamarine; */
+}
+.menuBox ul{
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.menuBox ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 4px;
+    padding: 6px 12px;
+    font-family: poppins;
+    /* border: 1px solid red; */
+    border-radius: 7px;
+}
+.menuBox ul li a:hover{
+    background-color: rgb(113, 48, 235);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
